@@ -1,0 +1,16 @@
+#1.1 Student ID Card Generator
+name = input("Enter your name : ")
+branch = input("Enter your branch : ")
+year = input("Enter your year(FE/SE/TE/BE) : ")
+seatno = input("Enter your seatno : ")
+dob = input("Enter your date of birth (dd/mm/yyyy) : ")
+
+print()
+print("*" + "-" * 60 + "*")
+print("*" + "~" * 17 + " STUDENT'S IDENTITY CARD " + "~" * 17 + "*")
+print(f"Name of the student : {name}")
+print(f"Branch              : {branch}")
+print(f"Year                : {year}")
+print(f"Seat Number         : {seatno}")
+print(f"Date of birth       : {dob}")
+print("*" + "-" * 60 + "*")
